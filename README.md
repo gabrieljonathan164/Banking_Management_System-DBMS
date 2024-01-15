@@ -1,6 +1,4 @@
-SWIFT BANK MANAGEMENT SYSTEM – FINAL REPORT
-
-Group 15 – Jonathan Gabriel, Sai Pranay Reddy Rachumalla and Mohsin Arshad Qazi
+SWIFT BANK MANAGEMENT SYSTEM 
 
 Problem Statement:
 
@@ -12,9 +10,9 @@ The project will concentrate on creating a database system that is dependable, s
 
 Functionality:
 
-The Swift Banking Management System Database seeks to provide a comprehensive online banking solution that enables customers to manage their banking activities from any location at any time. User registration and login, customer and account management, merchant management, and transaction management are all available through the system. Customers can open various types of accounts, such as Savings Accounts and Checking Accounts, and conduct transactions such as depositing, withdrawing, transferring, and paying bills. Customers can use the system to make payments to merchants, and merchants can register and manage their payment details. The system records all transactions, keeps a transaction history, and provides real-time updates to customers. The project provides a user-friendly interface that improves the customer's banking experience and ensures that all customer information is secure 
-Entities:
+The Swift Banking Management System Database seeks to provide a comprehensive online banking solution that enables customers to manage their banking activities from any location at any time. User registration and login, customer and account management, merchant management, and transaction management are all available through the system. Customers can open various types of accounts, such as Savings Accounts and Checking Accounts, and conduct transactions such as depositing, withdrawing, transferring, and paying bills. Customers can use the system to make payments to merchants, and merchants can register and manage their payment details. The system records all transactions, keeps a transaction history, and provides real-time updates to customers. The project provides a user-friendly interface that improves the customer's banking experience and ensures that all customer information is secure.
 
+Entities:
 1)	Customers (has a unique customer ID)
 2)	Merchants (has a unique merchant ID)
 3)	User Credential (has a unique Login ID)
@@ -69,17 +67,12 @@ Attributes of all entities:
 •	Merchant_email
 •	Merchant_address
 
-
-
-
-
-
-
 ER – Diagram:
 Below is the final outcome of all the entities we chose along with the attribute names for the overall Use Case.
 
 Entities:
- 
+
+![alt text](http://url/to/img.png](https://github.com/gabrieljonathan164/Banking_Management_System-DBMS/blob/main/Images/Picture1.jpg) 
 
 Diagram:
 
@@ -96,4 +89,3 @@ Normalization: 2nd Normal Form (2NF) – eliminate partial dependencies and ensu
  
 Normalization: 3rd Normal Form (3NF) – eliminates transitive dependencies and ensure that each column in the table is directly related or has full dependency to the key.
 
-![image](https://github.com/gabrieljonathan164/Banking_Management_System-DBMS/assets/133833069/64f2656a-7bd6-4ab5-935c-5c33404b98a7)
