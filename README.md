@@ -72,20 +72,32 @@ Below is the final outcome of all the entities we chose along with the attribute
 
 Entities:
 
-![alt text](http://url/to/img.png](https://github.com/gabrieljonathan164/Banking_Management_System-DBMS/blob/main/Images/Picture1.jpg) 
+![Alt text](https://github.com/gabrieljonathan164/Banking_Management_System-DBMS/blob/main/Images/Picture1.jpg) 
 
 Diagram:
-
+![Alt text](https://github.com/gabrieljonathan164/Banking_Management_System-DBMS/blob/main/Images/Picture2.jpg) 
  
 ER Diagram to Relational Schema:
 Converting an ER diagram to a relational schema helps identify and mapping the entities and relationships in the ER diagram to tables, columns, and relationships in the relational schema. The goal of converting an ER diagram to a relational schema is to create a well-structured and normalized database schema that a database management system can easily implement and use. This enables developers and users to interact with data in a consistent and efficient manner, while reducing the risk of data redundancy and inconsistency. The relational schema can also be used to create the database tables and indexes in the database management system.
+
+![Alt text](https://github.com/gabrieljonathan164/Banking_Management_System-DBMS/blob/main/Images/Picture3.jpg) 
 
 Data Normalization:
 The process of organizing data in a database so that it is structured, efficient, and easy to use is known as data normalization. The primary goal of data normalization is to reduce data redundancy and improve data integrity, resulting in a more efficient and reliable database system. Data normalization is required because databases frequently contain a large amount of redundant data, which can lead to inconsistencies, errors, and inefficiencies. By normalizing data, redundant data can be eliminated or minimized, reducing storage requirements and improving database performance.
  
 Normalization: 1st Normal Form (1NF) - contains only atomic values and ensures that each row in the table is unique.
 
+![Alt text](https://github.com/gabrieljonathan164/Banking_Management_System-DBMS/blob/main/Images/Picture4.jpg) 
+
 Normalization: 2nd Normal Form (2NF) – eliminate partial dependencies and ensure that each column in the table is functionally dependent on the entire key.
+
+![Alt text](https://github.com/gabrieljonathan164/Banking_Management_System-DBMS/blob/main/Images/Picture5.jpg) 
  
 Normalization: 3rd Normal Form (3NF) – eliminates transitive dependencies and ensure that each column in the table is directly related or has full dependency to the key.
+
+![Alt text](https://github.com/gabrieljonathan164/Banking_Management_System-DBMS/blob/main/Images/Picture6.jpg) 
+
+Summary Table for each Entitiy:
+
+![Alt text](https://github.com/gabrieljonathan164/Banking_Management_System-DBMS/blob/main/Images/Picture7.jpg) 
 
